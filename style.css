@@ -1,0 +1,45 @@
+body
+{
+background-image: url("download (1).jpeg");
+background-size: cover;
+font-family: 'Ubuntu', sans-serif;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+}
+h3{
+    display:inline;
+}
+#instruct{
+    float: right;
+    border: 1px solid blue;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px red;
+}
+#start, #status, #restart{
+    font-size: 24px;
+    border: 1px solid red;
+    box-shadow: 3px 3px 3px goldenrod;
+}
+.modal-dialog{
+    width: 70%;
+}
+#instructheader{
+    color:blue;
+}
+#footer{
+    background-color: antiquewhite;
+    line-height: 1.5;
+    font-size: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin:0px;
+    width: 100%;
+}
+canvas{
+    border: 5px solid red;
+    border-radius: 20px;
+    float: center;
+    height: 500px;
+}
